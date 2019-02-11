@@ -4,10 +4,33 @@
     <meta charset="utf-8" />
     <title>C0744008</title>
     <link href="css/default.css" rel="stylesheet" />
+   
 </head>
 <body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+
+
     <a href="page.html">a</a>
+
+    <script>
+        function addNumbers(inputnumber) {
+
+        var sum = 0;
+        var i=0;
+        while (i<=inputnumber) {
+        sum += i;
+        i++;
+        
+        }
+        return sum;
+           
+        }
+
+        
+    </script>
+
+    <script>
+        var inputnumber = prompt("Please state starting number");
+        document.write("<p>" +addNumbers(inputnumber));
+    </script>
 </body>
 </html>
