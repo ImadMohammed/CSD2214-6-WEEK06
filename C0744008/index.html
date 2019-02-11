@@ -10,27 +10,28 @@
 
 
     <a href="page.html">a</a>
+    <a href="page1.html">table</a>
 
     <script>
         function addNumbers(inputnumber) {
 
-        var sum = 0;
-        var i=0;
-        while (i<=inputnumber) {
-        sum += i;
-        i++;
-        
-        }
-        return sum;
-           
+            var sum = 0;
+            var i = 0;
+            while (i <= inputnumber) {
+                sum += i;
+                i++;
+
+            }
+            return sum;
+
         }
 
-        
+
     </script>
 
     <script>
         var inputnumber = prompt("Please state starting number");
-        document.write("<p>" +addNumbers(inputnumber));
+        document.write("<p>" + addNumbers(inputnumber));
     </script>
 </body>
 </html>
