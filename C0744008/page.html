@@ -4,16 +4,20 @@
     <title></title>
 </head>
 <body>
+    <p></p>
     <script>
-        
 
-        int sum = 0;
-        for (int i = 0; i <= 10; i++)
-        {
-            sum += 1;
+        var input1 = prompt("how high should I count up to?");
+        var sum = 0;
+        for (var i = 0; i <= input1; i++) {
+            document.write("<p>Point A: i is " + i );
+            document.write("<p>Point A: sum is " + sum);
+            sum += i;
+            document.write("<p>Point B: sum is " + sum);
         }
-        document.write("The sum is " sum);
-
+        document.write("<hr><p>Point c: i is " + i);
+        document.write("<p>The sum is " + sum);
+        //
     </script>
 </body>
 </html>
